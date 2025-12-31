@@ -1,8 +1,6 @@
 import os
 
-# ⚙️ إعدادات السورس (Configuration)
+# جلب الإعدادات من جيثب بدلاً من كتابتها يدوياً
 API_ID = int(os.getenv("API_ID", "22439859"))
 API_HASH = os.getenv("API_HASH", "312858aa733a7bfacf54eede0c275db4")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8586272670:AAHJ2dl_bJlCC4gvWQyyJksq36-FsPLCoN0")
-REQUIRED_CHANNEL = os.getenv("REQUIRED_CHANNEL", "iomk3")  
-SUPPORT_USER = os.getenv("SUPPORT_USER", "iomk0")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8307560710:AAFNRpzh141cq7rKt_OmPR0A823dxEaOZVU")
