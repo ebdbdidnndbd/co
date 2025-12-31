@@ -1,0 +1,9 @@
+telethon
+requests
+beautifulsoup4
+aiohttp
+deep-translator
+langdetect
+yt-dlp
+edge-tts
+uvloop; platform_system != 'Windows'
